@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Fav", should appear as action bar if possible -->
+    <item
+        android:id="@+id/action_bar_help"
+        android:icon="@mipmap/ic_help"
+        android:title="@string/action_bar_help_title"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_bar_about"
+        android:icon="@mipmap/ic_about"
+        android:title="@string/action_bar_aboutus_title"
+        app:showAsAction="ifRoom"/>
+
+</menu>

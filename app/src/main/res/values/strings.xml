@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TicketIn</string>
+
+
+    <!-- Action bar Icon strings-->
+    <string name="action_bar_aboutus_title">About Us</string>
+    <string name="action_bar_help_title">Help</string>
+</resources>
