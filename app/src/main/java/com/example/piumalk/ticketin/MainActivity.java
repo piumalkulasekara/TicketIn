@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         URL url = null;
 
         try{
-            url = new URL("http://10.0.2.2:4984/hello");
+            url = new URL("http://10.0.2.2:5984/hello");
         }catch (MalformedURLException e){
             e.printStackTrace();
         }
@@ -74,4 +74,6 @@ public class MainActivity extends AppCompatActivity {
         push.start();
         pull.start();
     }
+
+
 }
