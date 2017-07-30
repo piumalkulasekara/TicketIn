@@ -1,8 +1,21 @@
 <resources>
-    <string name="app_name">TicketIn</string>
+    <string name="app_name">TicketLK</string>
 
 
     <!-- Action bar Icon strings-->
     <string name="action_bar_aboutus_title">About Us</string>
     <string name="action_bar_help_title">Help</string>
+
+
+    <!--Home page values-->
+    <!--text views-->
+    <string name="home_textview_from">From</string>
+    <string name="home_textview_to">To</string>
+    <string name="home_textview_date">Date :</string>
+    <string name="home_textview_time">Time :</string>
+    <string name="home_textview_numberOfTickets">No of Tickets :</string>
+    <!--Buttons-->
+    <string name="home_button_enterDate">Enter the Date</string>
+    <string name="home_button_enterTime">Enter the Time</string>
+    <string name="home_button_proceed">Proceed</string>
 </resources>
