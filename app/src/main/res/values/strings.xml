@@ -18,4 +18,10 @@
     <string name="home_button_enterDate">Enter the Date</string>
     <string name="home_button_enterTime">Enter the Time</string>
     <string name="home_button_proceed">Proceed</string>
+
+
+    <!--Summary Page Values-->
+    <!--Text Views-->
+    <!--Button-->
+    <string name="summary_button_checkout">Checkout</string>
 </resources>

@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
         etext_noOfTickets =(EditText) findViewById(R.id.edittext_No_of_Tickets);
 
         btnProceed = (Button)findViewById(R.id.button_Proceed);
+        btnProceed.setOnClickListener(this);
 
         //OnClick Listeners
         etext_Date.setOnClickListener(this);
@@ -75,10 +76,22 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                 setTime();
                 break;
             case R.id.button_Proceed:
-                Intent intent = new Intent(this, SummaryActivity.class);
-                startActivity(intent);
+                startActivity(SummaryActivity.class);
+                finish();
+                break;
 
         }
+    }
+
+    /*
+     * starts new activity
+     */
+    private void startActivity(Class c) {
+        Intent intent = new Intent(MainActivity.this, c);
+//        Bundle bundle = new Bundle();
+//        bundle.putLong("SELECTED_DATE", dateFormat);
+//        intent.putExtras(bundle);
+        startActivity(intent);
     }
 
     //This method will set the time
