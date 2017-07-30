@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">TicketLK</string>
 
+    <!--Activity Headers-->
+    <string name="header_MainActiviry">TicketLN - Home</string>
+    <string name="header_summaryActivity">Oder of the Summary</string>
+    <string name="header_LoginActivity">Sign In or Sign Up</string>
+<string name="header_SignUpActivity">SignUp</string>
 
     <!-- Action bar Icon strings-->
     <string name="action_bar_aboutus_title">About Us</string>
@@ -20,8 +25,36 @@
     <string name="home_button_proceed">Proceed</string>
 
 
+
     <!--Summary Page Values-->
     <!--Text Views-->
     <!--Button-->
     <string name="summary_button_checkout">Checkout</string>
+    <string name="title_activity_login">Sign in</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <!--SignUp page values-->
+    <!--Edit texets-->
+    <string name="signup_txtview_name">Name :</string>
+    <string name="signup_txtview_NIC">NIC :</string>
+    <string name="signup_txtview_mobileNumber">Mobil Number :"</string>
+    <string name="signup_txtview_Email">Email :</string>
+    <string name="signup_txtview_name">Name :</string>
+    <string name="signup_txtview_name">Name :</string>
+    <string name="signup_txtview_name">Name :</string>
+
 </resources>

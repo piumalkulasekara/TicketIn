@@ -1,5 +1,6 @@
 package com.example.piumalk.ticketin;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -25,7 +26,7 @@ public class SummaryActivity extends AppCompatActivity implements View.OnClickLi
         txtTime = (TextView) findViewById(R.id.txt_Time);
         txtNoOfTickets = (TextView) findViewById(R.id.txt_Ticket_Counter);
         txtTotalFair = (TextView) findViewById(R.id.txt_Cost);
-        txtTotalFair.setText("12");
+
 
     }
 
@@ -33,7 +34,10 @@ public class SummaryActivity extends AppCompatActivity implements View.OnClickLi
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btn_Checkout:
-
+                Intent intent = new Intent(this, LoginActivity.class);
+                startActivity(intent);
+                finish();
+                break;
         }
     }
 }
