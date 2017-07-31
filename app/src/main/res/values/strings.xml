@@ -53,8 +53,6 @@
     <string name="signup_txtview_NIC">NIC :</string>
     <string name="signup_txtview_mobileNumber">Mobil Number :"</string>
     <string name="signup_txtview_Email">Email :</string>
-    <string name="signup_txtview_name">Name :</string>
-    <string name="signup_txtview_name">Name :</string>
-    <string name="signup_txtview_name">Name :</string>
+
 
 </resources>
